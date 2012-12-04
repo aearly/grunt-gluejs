@@ -1,0 +1,31 @@
+{
+  "name": "grunt-gluejs",
+  "version": "0.0.0",
+  "description": "Grunt wrapper for GlueJS",
+  "main": "tasks/gluejs.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aearly/grunt-gluejs.git"
+  },
+  "keywords": [
+    "gluejs",
+    "grunt",
+    "task",
+    "commonjs",
+    "browserify"
+  ],
+  "author": "Alexander Early <alexander.early@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "grunt": "~0.3.17",
+    "grunt-simple-mocha": "~0.2.0",
+    "mocha": "~1.7.3"
+  },
+  "dependencies": {
+    "gluejs": "~0.2.0"
+  }
+}
