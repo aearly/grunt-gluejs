@@ -1,6 +1,6 @@
 {
   "name": "grunt-gluejs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Grunt wrapper for GlueJS",
   "main": "tasks/gluejs.js",
   "scripts": {
