@@ -4,7 +4,11 @@ module.exports = function (grunt) {
   grunt.initConfig({
     gluejs: {
       "dist/basic.js": {
-        entries: ["lib/A.js"]
+        basepath: "lib",
+        includes: ["lib/*.js"],
+        excludes: ["lib/C.js"],
+        replace: [],
+        exportName: "A"
       }
     }
   });
