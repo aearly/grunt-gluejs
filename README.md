@@ -1,29 +1,4 @@
 grunt-gluejs
 ============
 
-Grunt wrapper for GlueJS
-
-Example Config:
-
-```javascript
-
-  grunt.initConfig({
-    gluejs: {
-      "dist/index.js": {
-        basepath: "lib",
-        includes: ["lib/*.js"],
-        excludes: ["lib/C.js"],
-        replace: {
-          "jQuery": "window.$"
-        },
-        npm: {
-          "lodash": "../../"
-        },
-        exportName: "A"
-      }
-    }
-  });
-
-  grunt.loadNpmTasks("grunt-gluejs");
-
-```
+This project is no longer maintained.  Please use [grunt-glue-js](https://github.com/ngryman/grunt-glue-js).
